@@ -1,5 +1,5 @@
 const handler = async (m, { conn, text }) => {
-  if (!text) return m.reply("Example: .bratpro silana ai");
+  if (!text) return m.reply("Example: .bratpro SNIPER BOT");
 
   try {
     const caption = `Please choose the desired type:\n\n1. *Image 🖼️*\n2. *Video 🎥*`;
@@ -7,7 +7,7 @@ const handler = async (m, { conn, text }) => {
       m.chat,
       {
         text: caption,
-        footer: "silana ai ~ By Moureddine ouafy",
+        footer: "SNIPER BOT ~ By Ahmed AbdelFattah",
         buttons: [
           {
             buttonId: `.brat ${text}`,
