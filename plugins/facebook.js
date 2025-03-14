@@ -2,7 +2,7 @@
 import fetch from 'node-fetch'
 
 let handler = async (m, {conn, text, usedPrefix, command}) => {
-if (!text) throw `*use exemple*: \n /${command} https://www.facebook.com/100063533185520/videos/3728695610792452/?app=fbl`
+if (!text) throw `*use exemple*: \n /${command} https://www.facebook.com/987777889900/videos/37286887710792452/?app=fbl`
 
 const { success, title, links } = await fb(text)
 
