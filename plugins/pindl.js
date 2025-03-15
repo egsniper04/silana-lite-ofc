@@ -4,7 +4,7 @@ let handler = async (m, { conn, text }) => {
     if (!text) throw "Please provide a Pinterest video link. Example:\n *.pindl* https://www.pinterest.com/pin/695102523772320948";
 
     try {
-        m.reply("المرجو الانتظار قليلا لا تنسى ان تتابع \n instagram.com/noureddine_ouafy");
+        m.reply("المرجو الانتظار قليلا لا تنسى ان تتابع \n instagram.com/_bcqf");
 
         const { medias, title } = await pindl(text);
 
