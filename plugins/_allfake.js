@@ -42,7 +42,7 @@ handler.all = async function (m) {
       [
         owner[0],
         await conn.getName(owner[0] + "201020182886@s.whatsapp.net"),
-        "SILANA AI",
+        "SNIPER BOT",
         "https://whatsapp.com",
         true,
       ],
@@ -135,7 +135,7 @@ function date() {
 }
 
 function ucapan() {
-  const time = moment.tz("Africa/Casablanca").format("HH");
+  const time = moment.tz("Africa/Cairo").format("HH");
   let res = "اضغط هنا لمتابعة صاحب البوت  ";
   if (time >= 4) {
     res = "اضغط هنا لمتابعة صاحب البوت  ";
