@@ -47,7 +47,7 @@ const handler = async (message, { args, conn }) => {
     const mediaDetails = apiData.result;
     const downloadUrl = mediaDetails.download_url;
     const title = mediaDetails.title || "Unknown Title";
-    const detailsMessage = `*Media Details*\n\n*Title:* ${title}\n> silana lite ___thanks to Silva Md for the feature`;
+    const detailsMessage = `*Media Details*\n\n*Title:* ${title}\n> *SNIPER BOT*`;
 
     const mediaResponse = await fetchWithRetry(downloadUrl, {
       headers: {
