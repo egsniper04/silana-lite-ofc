@@ -1,7 +1,7 @@
 let handler = async (m, { text, conn }) => {
   
   if (!text || !text.includes('|')) {
-    return await m.reply(']*Reminder feature 🥹🌟*\n~Example: .reminder Study|10~\n> .reminder [message]|[minutes]\n\n by obito thanks 🙏');
+    return await m.reply(']*Reminder feature 🥹🌟*\n~Example: .reminder Study|10~\n> .reminder [message]|[minutes]\n\n by SNIPER BOT ❤');
   }
 
   let [message, time] = text.split('|');
