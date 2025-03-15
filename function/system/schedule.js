@@ -15,17 +15,17 @@ export async function schedule(db, conn) {
         let user = db.data.users;
 
         for (let usr of data) {
-            if (user[usr].limit < 7) {
+            if (user[usr].limit < 11) {
                 user[usr].limit = 20;
             }
         }
 
         for (let gc of grup) {
-            await conn.reply(gc, '```The system has reset the limit of all users who have a value below 7```', null);
+            await conn.reply(gc, '```The system has reset the limit of all users who have a value below 11```', null);
             await delay(5000)
         }
     }, {
         scheduled: true,
-        timezone: "Africa/Casablanca"
+        timezone: "Africa/Cairo"
     });
 }
