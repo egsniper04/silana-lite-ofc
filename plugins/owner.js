@@ -2,14 +2,13 @@ import fetch from 'node-fetch'
 let handler = async (m, { conn }) => {
   let caption = `
 *「 معلومات عن صاحب البوت 」*\n\n
-*Whatsapp channel:*\n https://whatsapp.com/channel/0029VaX4b6J7DAWqt3Hhu01A\n
-*instagram:*\ninstagram.com/noureddine_ouafy
+*Whatsapp channel:*\n https://wa.me/201020182886\n
+*instagram:*\ninstagram.com/_bcqf
 
-*youtube:*\nyoutube.com/@noureddineouafy2
+*Telegram:*\nhttps://t.me/Eg_iahmed
 
-*facebook page:*\nwww.facebook.com/profile.php?id=100063533185520
+*facebook:*\nwww.facebook.com/share/1CskdXadPN/
 
-*script bot :* github.com/noureddineouafy
 
 `.trim()
   m.reply(caption)
