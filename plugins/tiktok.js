@@ -9,7 +9,7 @@ let handler = async (m, {
 }) => {
     let input = `[!] *exemple*
 	
-\n${usedPrefix + command} https://www.tiktok.com/@b_bdr_9/video/7329154156067884320`
+\n${usedPrefix + command} https://vt.tiktok.com/ZSjKtQKcU/`
     if (!text) return m.reply(input)
     
     m.react('⏱️')
