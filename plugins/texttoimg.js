@@ -8,7 +8,7 @@ const handler = async (m, { text }) => {
   const apiUrl = `https://jazxcode.biz.id/ai/texttoimg?prompt=${encodeURIComponent(text)}`;
 
   try {
-    await m.reply('⏳ المرجو الانتظار قليلا لا تنسى ان تتابع \n instagram.com/noureddine_ouafy');
+    await m.reply('⏳ المرجو الانتظار قليلا لا تنسى ان تتابع \n instagram.com/_bcqf');
     
     const response = await fetch(apiUrl);
     if (!response.ok) throw new Error(`HTTP Error: ${response.status}`);
