@@ -20,7 +20,7 @@ export async function closegc() {
 
     let json = JSON.parse(data);
 
-    const time = moment.tz('Africa/Casablanca').format('HH:mm');
+    const time = moment.tz('Africa/Cairo').format('HH:mm');
 
     for (let schedule of json) {
 
