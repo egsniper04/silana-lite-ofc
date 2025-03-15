@@ -1222,7 +1222,7 @@ ${global.namebot}
                 else
                     m.exp += xp
                 if (!isPrems && plugin.limit && global.db.data.users[m.sender].limit < plugin.limit * 7) {
-                    this.reply(m.chat, `Your limit has reached the limit\n\n•••••••••••••••••••\n\nآسفة لقد وصلتَ للحد الأدنى 🙂 
+                    this.reply(m.chat, `Your limit has reached the limit\n\n•••••••••••••••••••\n\nآسف لقد وصلتَ للحد الأدنى 🙂 
 
 البوت مبرمج على أن يُلَبِّي لك *10* طلبات في اليوم ، ثم يتوجب عليك أنذاك أن تنتظر ل 24 ساعة حتى تستفيذ من *10* أخريات .. وهكذا ... لذا دائما اشتغل بالبوت عندما تحتاجه فقط حتى لا تخسر الفرص ، \n\n*أراك غــــذا ان شــاء اللــــــــه*`, m)
                     continue // Limit habis
@@ -1557,7 +1557,7 @@ async function getMessage(key){
             return msg?.message
         }
         return {
-            conversation: "My name is Silana Ai"
+            conversation: "My name is SNIPER BOT"
         }
     }
 async function appenTextMessage(text, chatUpdate) {
@@ -1660,7 +1660,7 @@ let msg = {
         adminonly: 'تم تعطيل الخاصية للأعضاء',
         premiumonly: `📢 لا يمكنك الوصول إلى الميزة ❗\nقم بشراء الإصدار المميز للوصول إليها عبر جهاز الكمبيوتر.\ncontact the owner below\nwa.me/${global.info.nomerown}`,
         groups: 'الميزة حاليًا نشطة للمجموعات فقط.',
-        gconly: `📢 لا يمكنك الوصول إلى ميزة ❗\nانضم إلى مجموعة Silana Bot لتتمكن من الوصول\n\n> ${global.url.sgc}`,
+        gconly: `📢 لا يمكنك الوصول إلى ميزة ❗\nانضم إلى مجموعة SNIPER Bot لتتمكن من الوصول\n\n> ${global.url.sgc}`,
         game: 'الميزة *اللعبة* لم يتم تشغيلها لهذه الدردشة',
         rpg: 'الميزة *Rpg* لم يتم تشغيلها لهذه الدردشة',
         rowner: 'ميزة خاصة للمالك الحقيقي، *المستخدمون* لا يمكنهم الوصول إليها :!',
@@ -1683,13 +1683,13 @@ let msg = {
     let daftar = {
   unreg: `\`أنت لم تسجل بعد في قاعدة البيانات. سجل فورا عن طريق الكتابة:\`
   
-- /daftar name. age\n\n قبل ان تضغط على زر تسجيل الدخول رجاء تأكد أنك مشترك في قناتي على الواتساب \n\n https://whatsapp.com/channel/0029VaX4b6J7DAWqt3Hhu01A`}[type]
-  
+- /daftar name. age\n\nاذا واجهتك اي مشاكل في البوت تواصل معي \n\n https://wa.me/201020182886`}[type]
+	
   if (daftar) return conn.sendUrlImageButton(m.chat, daftar, [{name: "quick_reply", buttonParamsJson: `{"display_text": "تسجيل الدخول", "id": "@verify"}`}], wm, registrasi, fkon)
         }
 
 function ucapan() {
-  const time = moment.tz('Africa/Casablanca').format('HH')
+  const time = moment.tz('Africa/Cairo').format('HH')
   let res = "This morning, bro, I still haven't slept?"
   if (time >= 4) {
     res = "Morning bro 🌄"
