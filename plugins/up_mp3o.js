@@ -1,5 +1,5 @@
 let handler = async (m, { conn, text }) => {
-    let jidny = "120363285847738492@newsletter";
+    let jidny = "201020182886@newsletter";
     if (!m.quoted) return m.reply("Reply to an audio message, kocak");
 
     let [title, customJidny] = text.split('|').map(v => v.trim());
@@ -18,13 +18,13 @@ let handler = async (m, { conn, text }) => {
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: jidny,
                     serverMessageId: 2001,
-                    newsletterName: "SILANA Ai | By Noureddine Ouafy 🔛"
+                    newsletterName: "SNIPER BOT | By Ahmed AbdelFattah 🔛"
                 },
                 externalAdReply: {
                     title: title,
                     body: null,
-                    thumbnailUrl: "https://files.catbox.moe/hnbuh3.jpg",
-                    sourceUrl: "https://instagram.com/noureddine_ouafy",
+                    thumbnailUrl: "https://www2.0zz0.com/2025/01/29/22/218411100.png",
+                    sourceUrl: "https://instagram.com/_bcqf",
                     mediaType: 1,
                     showAdAttribution: true,
                     renderLargerThumbnail: false
