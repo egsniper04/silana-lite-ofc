@@ -44,7 +44,7 @@ let handler = async (m, { conn }) => {
     await writeFile(tempFilePath, upscaledImageBuffer);
 
     // Send the upscaled image
-    await conn.sendFile(m.chat, tempFilePath, 'upscaled_image.png', 'Here is your HD image: by silana lite ai', m);
+    await conn.sendFile(m.chat, tempFilePath, 'upscaled_image.png', 'Here is your HD image: by sniper bot', m);
 
     // Clean up the temporary file
     unlinkSync(tempFilePath);
