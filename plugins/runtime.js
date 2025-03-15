@@ -27,7 +27,7 @@ handler.command = ["runtime", "rt"];
 export default handler;
 
 function ucapan() {
-  const time = moment.tz("Africa/Casablanca").format("HH");
+  const time = moment.tz("Africa/Cairo").format("HH");
   let res = "It's early in the morning, why haven't you slept yet?? 🥱";
   if (time >= 4) {
     res = "morning 🌄";
