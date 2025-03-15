@@ -140,7 +140,7 @@ var handler = async (m, { conn, command, text, usedPrefix }) => {
         if (finalOption === '--video') {
             await conn.sendMessage(m.chat, { 
                 video: { url: mp4.downloadLink }, 
-                caption: `*${title}*\n\n*Size*: ${mp4.size}\n*Quality*: ${mp4.quality}\n\n*Silana Lite by Noureddine*` 
+                caption: `*${title}*\n\n*Size*: ${mp4.size}\n*Quality*: ${mp4.quality}\n\n*SNIPER BOT  by Ahmed Abdelfattah*` 
             }, { quoted: m });
         } else if (finalOption === '--document' || finalOption === '--doc') {
             const audio = await axios.get(mp3.downloadLink, { responseType: 'arraybuffer' });
