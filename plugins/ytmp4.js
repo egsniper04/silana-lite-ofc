@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 import axios from 'axios';
 
 const handler = async (m, { conn, text, usedPrefix, command }) => {
-    if (!text) throw `Usage: ${usedPrefix}${command} <YouTube URL>\nExample: ${usedPrefix}${command} https://youtube.com/watch?v=wjK4_sBuNAM`;
+    if (!text) throw `Usage: ${usedPrefix}${command} <YouTube URL>\nExample: ${usedPrefix}${command} https://youtu.be/VKqZNPG4o_4?si=ogHs2uzR7p-Xlxh3`;
 
     try {
         const { data } = await axios.get(`https://ytdl-api.caliphdev.com/download/video?url=${encodeURIComponent(text)}`);
